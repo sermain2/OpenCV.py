@@ -32,7 +32,7 @@ id = 0
 names = ['None', 'Semin', 'Jaehoon', 'Jaeseok']
 
 # 이용할 데이터 베이스로 경로 설정
-conn = pymysql.connect(host="220.69.207.85", user="min",passwd="1234",db="smartmirror")
+conn = pymysql.connect(host="", user="",passwd="",db="smartmirror")
 i2c = io.I2C(board.SCL, board.SDA, frequency=100000)
 mlx = adafruit_mlx90614.MLX90614(i2c)
 
